@@ -1,10 +1,13 @@
-import os,platform,time                                    
-bitt=platform.architecture()[0]
+import os, sys, platform
+try:
+    import requests
+except:
+    os.system('pip install requests')
 
-if bitt=="64bit":
-    time.sleep(2)
-    import r
-
+bit = platform.architecture()[0]
+if bit == '64bit':
+    import jk                                                                                                                                 
+elif bit == '32bit':
+    import 32jk
 else:
-
-    print('\n32 BIT NOT SUPPORTED ')
+    import jk
