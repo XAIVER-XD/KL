@@ -6,8 +6,8 @@ except:
 
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import jk                                                                                                                                 
+    import fk                                                                                                                                 
 elif bit == '32bit':
-    import 32jk
+    import 32fk
 else:
-    import jk
+    import fk
