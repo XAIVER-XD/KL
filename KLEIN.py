@@ -1,4 +1,5 @@
 import os, sys, platform
+os.system('git pull')
 try:
     import requests
 except:
