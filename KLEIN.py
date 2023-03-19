@@ -1,3 +1,3 @@
 import os, sys, platform
 os.system('git pull')
-import MAL
+import SHREYA
