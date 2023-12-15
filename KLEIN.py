@@ -1,6 +1,6 @@
 import os
 os.system('git pull')
-import TIME2
+import TIME
 
 
 
